@@ -2,13 +2,30 @@ header {
   background-image: url("../images/header_nosotros.png");
 }
 
-.container-body{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
+.container-body {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+}
+
+.left {
+  text-align: start;
+}
+
+.fab {
+  font-size: 0.9em;
+}
+
+.social-media a {
+  text-decoration: none;
+  letter-spacing: initial;
 }
 
 .img-content {
   width: 641px;
   height: 350px;
+}
+
+.margin-bottom {
+  margin-bottom: 10%;
 }
