@@ -60,7 +60,8 @@ header {
 }
 
 .active{
-  text-decoration: #ffffff;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 /* Estilo de frase header */
