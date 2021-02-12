@@ -1,4 +1,14 @@
 header {
-    background-image: url("../images/header_nosotros.png");
-  }
-  
+  background-image: url("../images/header_nosotros.png");
+}
+
+.container-body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+.img-content {
+  width: 641px;
+  height: 350px;
+}
