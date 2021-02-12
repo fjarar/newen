@@ -1,54 +1,58 @@
 /* estilo boton enviar */
+header {
+  background-image: url("../images/header_contacto.png");
+}
+
+h1{
+    text-align: center;
+}
 
 #btn-enviar {
-    background-color: #527329;
+  background-color: #527329;
 }
-
 
 .titulo-formulario {
-   margin-top: 50px;
-    color: #7C5E15;
-    margin-left: 370px;
-    font-size: 12px;
+  margin-top: 50px;
+  color: #7c5e15;
+  /* margin-left: 370px; */
+  font-size: 12px;
 }
 
-
-.separador-texto-titulo{
-    width: 13%;
-    margin-left: 370px;
+.separador-texto-titulo {
+  width: 13%;
+  margin-left: 43.5%;
 }
 
 .formulario {
-    margin-left: 370px;
-    color: #7C5E15;
-    padding: 10px;
+  margin-left: 32%;
+  color: #7c5e15;
+  padding: 10px;
 }
 textarea {
-    resize: vertical;
-    max-height: 250px;
+  resize: vertical;
+  max-height: 250px;
 }
 
 label {
-    font-size: 15px;
-    font-weight: bold;
-    
+  font-size: 15px;
+  font-weight: bold;
 }
-input, textarea {
-    width: 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-bottom: 0;
-    color: white;
-
+input,
+textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 0;
+  color: white;
 }
 
-
-.titulo-mapa{   color: #7c5e15;
-    margin-left: 370px;
-    margin-top: 40px;
-    font-size: 12px;
+.titulo-mapa {
+  color: #7c5e15;
+  margin-left: auto;
+  margin-top: 40px;
+  font-size: 12px;
 }
-.separador-mapa{
-    width: 13%;
-    margin-left: 370px;
+.separador-mapa {
+  width: 13%;
+  margin-left: 43.5%;
 }
