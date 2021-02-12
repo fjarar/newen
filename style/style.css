@@ -59,6 +59,11 @@ header {
   color: #ffffff;
 }
 
+.nav-item:hover {
+  font-weight: bolder;
+  text-decoration: overline;
+}
+
 .active{
   text-decoration: underline;
   text-underline-position: under;
@@ -129,6 +134,7 @@ header {
   font-size: 18px;
   text-align: justify;
   color: #9D9d9d;
+  margin-right: 2%;
 }
 
 .container-items {
