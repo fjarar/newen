@@ -46,6 +46,10 @@ textarea {
   color: white;
 }
 
+textarea{
+  color: black;
+}
+
 .titulo-mapa {
   color: #7c5e15;
   margin-left: auto;
