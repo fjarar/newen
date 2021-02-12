@@ -6,10 +6,7 @@
 
 <<<<<<< HEAD
 .titulo-formulario {
-=======
-.título-formulario {
->>>>>>> e48e80a2f44dd8f30f045d18e133c507bf22750d
-    margin-top: 50px;
+=======   margin-top: 50px;
     color: #7C5E15;
     margin-left: 370px;
     font-size: 12px;
@@ -17,10 +14,7 @@
 
 <<<<<<< HEAD
 .separador-texto-titulo{
-=======
-.separador-texto-título{
->>>>>>> e48e80a2f44dd8f30f045d18e133c507bf22750d
-    width: 13%;
+=======   width: 13%;
     margin-left: 370px;
 }
 
@@ -50,11 +44,7 @@ input, textarea {
 
 
 <<<<<<< HEAD
-.titulo-mapa{
-=======
-.título-mapa{
->>>>>>> e48e80a2f44dd8f30f045d18e133c507bf22750d
-    color: #7c5e15;
+.titulo-mapa{   color: #7c5e15;
     margin-left: 370px;
     margin-top: 40px;
     font-size: 12px;
