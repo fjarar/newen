@@ -5,6 +5,27 @@
     width: 90%;
   }
 }
+@media screen and (max-width: 1050px){
+  .social-media{
+    margin-bottom: 3%;
+  }
+}
+
+
+@media screen and (max-width: 950px){
+  .margin-left{
+    margin-left: 5%;
+  }
+  .margin-right{
+    margin-right: 0;
+  }
+  .mountain-home{
+    width: 95%;
+  }
+  .social-media{
+    margin-bottom: 8%;
+  }
+}
 
 @media screen and (max-width: 768px) {
   section.slider {
@@ -18,7 +39,7 @@
     float: right;
   }
   .container-header2 {
-    margin-left: 10%;
+    /* margin-left: 10%; */
     padding-right: 0%;
   }
   section.título-mapa {
@@ -26,10 +47,20 @@
   }
   img.separador-texto-título {
     margin-left: 360px;
-  }
+  }  
 
   h1 {
     margin-left: -50px;
+  }
+  /* titulo header home */
+  .container-header2 h1{
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0.25em;
+  }
+  /* boton reservar */
+  .btn-reservar{
+    font-size: 0.8em;
   }
 
   form {
@@ -40,5 +71,92 @@
   nav.responsive img {
     margin-top: -60px;
     margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 730px){
+  .container-header2 h1{
+    margin: 0 3px 0 3px;
+  }
+  .container-body{
+    grid-template-columns: 1fr;
+  }
+
+  .container-body h1, h3{
+    margin: auto;
+  }
+
+  .btn-content{
+    margin-bottom: 3%;
+  }
+
+  .mountain-home{
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+
+  .container-galeria div h1 {
+    margin: auto;
+  }
+
+  .container-galeria div h3 {
+    margin: 2%;
+  }
+
+  .social-media{
+    margin-bottom: 3em;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .item-section{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .container-header2 h1{
+    font-size: 1.2em;
+  }
+
+  .container-header2 p{
+    font-size: 0.8em;
+  }
+
+  .container-body h1 {
+    font-size: 1.2em;
+  }
+
+  .container-galeria{
+    padding-bottom: 60%;
+  }
+
+  .social-media{
+    margin-bottom: 40%;
+  }
+
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 10%;
+  }
+
+  .space-footer{
+    width: 100%;
+  }
+
+  .p-footer {
+    margin: 0;
+  }
+
+  .logo {
+    width: 100%;
+    /* display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center; */
+    text-align: center;
+  }
+
+  .logo-footer{
+    width: 70%;
   }
 }
