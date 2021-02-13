@@ -2,11 +2,44 @@ header {
   background-image: url("../images/header_nosotros.png");
 }
 
-.container-body {
+.container-body-nos {
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.16em;
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #ffffff;
+  width: 100%;
+  padding-bottom: 5%;
+  margin-top: 40px;
+}
+
+.container-body-nos {
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
 }
+
+.container-body-nos h1{
+  font-size: 1.5em;
+  margin-top: 15px;
+  line-height: 73,8px;
+  font-weight: 400;
+  font-family: 'Kotta One', serif;
+  color: #7c5e15;
+}
+
+.container-body-nos h1, h3{
+  text-align: center;
+}
+
+.container-body-nos h3{
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 184.5%;
+  color: #8c7232;
+}
+
 
 .left {
   text-align: start;
@@ -20,7 +53,7 @@ header {
   font-size: 0.9em;
 }
 
-.social-media a {
+.social-media2 a {
   text-decoration: none;
   letter-spacing: initial;
 }
