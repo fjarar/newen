@@ -24,10 +24,18 @@ h1{
 }
 
 .formulario {
-  margin-left: 32%;
+  /* margin-left: 32%; */
   color: #7c5e15;
   padding: 10px;
+  /* new changes */
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
 }
+
+.form-style{
+  grid-column: 2/4;
+}
+
 textarea {
   resize: vertical;
   max-height: 250px;
@@ -39,7 +47,7 @@ label {
 }
 input,
 textarea {
-  width: 50%;
+  width: 64%;
   padding: 10px;
   border: 1px solid #ccc;
   margin-bottom: 0;
