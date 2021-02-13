@@ -34,10 +34,26 @@
   .nav {
     display: none;
   }
-  nav.responsive img {
+
+  /* nav.responsive a img{
     display: block;
-    float: right;
+  } */
+
+  #menu-responsive{
+    display: grid;
+    justify-items: right;
   }
+
+  #menu-responsive a img{
+    display: block;
+    padding-right: 1em;
+  }
+
+  .efecto:hover{
+    cursor: pointer;
+    opacity: 0.5;
+  }
+
   .container-header2 {
     /* margin-left: 10%; */
     padding-right: 0%;
