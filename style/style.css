@@ -9,7 +9,7 @@ html {
   position: relative;
 }
 
-.responsive img {
+.responsive a img {
   display: none;
 }
 
