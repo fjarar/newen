@@ -12,7 +12,7 @@ html {
 .responsive a img {
   display: none;
 
-
+}
 header {
   background-image: url("../images/header_bg.png");
   background-size: cover;
