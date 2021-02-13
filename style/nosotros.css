@@ -12,6 +12,10 @@ header {
   text-align: start;
 }
 
+.margin-right .p-section{
+  margin-left: 2%;
+}
+
 .fab {
   font-size: 0.9em;
 }
@@ -22,8 +26,8 @@ header {
 }
 
 .img-content {
-  width: 641px;
-  height: 350px;
+  width: 100%;
+  height: 100%x;
 }
 
 .margin-bottom {
