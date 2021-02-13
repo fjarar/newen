@@ -11,6 +11,8 @@
       src="https://kit.fontawesome.com/0ee46c32f9.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Link to JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <title>Newen.cl</title>
   </head>
 
@@ -19,11 +21,23 @@
     <header class="header">
       <div class="container-header1">
         <!-- logo encabezado -->
-        <div class="row-header1 margin-left">
+        <div class="row-header1 margin-left column-logo">
           <img src="images/logo_newen.png" class="logo-header" alt="logo" />
         </div>
+        <!-- menú responsive -->
+        <nav id="menu-responsive" class="responsive">
+          <a href="#">
+            <img
+              src="images/menu_mobile.png"
+              alt="menu"
+              id="img-responsive"
+              class="efecto"
+            />
+          </a>
+        </nav>
+
         <!-- barra navegacion encabezado -->
-        <div class="row-header1 margin-right">
+        <div class="row-header1 margin-right menu-column">
           <nav class="nav" id="menu-header">
             <a href="#" class="nav-item active">INICIO</a>
             <a href="nosotros.html" class="nav-item">NOSOTROS</a>
@@ -31,13 +45,6 @@
           </nav>
         </div>
       </div>
-
-      <!-- menú responsive -->
-      <nav id="menu-responsive" class="responsive">
-        <a href="#">
-          <img src="images/menu_mobile.png" alt="menu" id="img-responsive" class="efecto"/>
-        </a>
-      </nav>
 
       <div class="container-header2">
         <h1 class="row-header2">SORPRÉNDETE CON LAS MARAVILLAS DEL SUR</h1>
@@ -148,5 +155,6 @@
         <p>&copy;Todos los derechos reservados</p>
       </div>
     </footer>
+    <script src="js/index.js" type="text/Javascript"></script>
   </body>
 </html>
