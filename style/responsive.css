@@ -59,10 +59,9 @@
     margin-left: -100px;
   }
 
-  nav.responsive img {
+  /* nav.responsive img {
     margin-top: -60px;
-    margin-right: 10%;
-  }
+  } */
 }
 
 @media screen and (max-width: 730px){
@@ -128,11 +127,26 @@
     width: 100%;
   }
 
+  .menu-column{
+    grid-column-start: span 2;
+    width: 100%;
+  }
+
+  .container-header2{
+    justify-content: space-evenly;
+  }
+
+  .menu-column{
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
   section.slider {
     height: 150px;
   }
   .nav {
     display: none;
+    width: 100%;
+    text-align: center;
   }
 
   #menu-responsive{
@@ -142,7 +156,7 @@
   }
 
   #menu-responsive a img{
-    display: block;
+    display: inline-flex;
     padding-right: 1em;
   }
 

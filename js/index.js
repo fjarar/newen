@@ -27,7 +27,7 @@ $(function() {
         menuVisible = false;
         return;
       }
-      $('#menu-header').css({'display':'grid'});
+      $('#menu-header').css({'display':'inline-flex'});
       menuVisible = true;
     });
   });
